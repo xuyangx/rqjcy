@@ -8,10 +8,7 @@ void setup()
 
   pinMode(9, OUTPUT);
 
-}
-
-
-
+}//定义使用的引脚
 void loop()
 
 {
@@ -26,10 +23,7 @@ void loop()
 
       delay(3);
 
-    }
-
-
-
+    }//如果有人经过，人体红外检测输出高电压。使得蜂鸣器发出声响
   } else {
 
     noTone(9);
@@ -38,8 +32,5 @@ void loop()
 
 
 
-  }
-
-
-
+  }//若无人经过则不放出声音
 }
